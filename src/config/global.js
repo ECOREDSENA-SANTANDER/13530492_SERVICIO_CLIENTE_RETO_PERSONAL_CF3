@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Interacción con el cliente',
+    descripcionCurso:
+      'La inteligencia emocional, el manejo de las emociones y las habilidades blandas como la solución de conflictos, representan estrategias claras y eficaces para reducir la carga emocional de un colaborador de servicio al cliente. Adicionalmente, las habilidades de básicas de negociación que pueda tener esta persona benefician tanto a la empresa como al cliente logrando así un cliente satisfecho y que muy seguramente volverá y/o recomendará el servicio.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Inteligencia emocional',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Cerebro emocional',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Base de la comunicación de las emociones',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Naturaleza de la inteligencia emocional',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Inteligencia aplicada',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Alfabetización emocional',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,13 +70,91 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Momentos de verdad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Una correcta actitud',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La negociación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Actitudes para la negociación',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos de negociación',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Habilidades básicas para la negociación',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Etapas de la negociación',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Claves para garantizar una negociación exitosa',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Entorno de la negociación',
+            hash: 't_3_6',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'El conflicto',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Tipos de conflictos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Elementos del conflicto',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Fuentes del conflicto organizacional',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Variables del conflicto',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Manejo y resolución',
+            hash: 't_4_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Medición de la satisfacción del cliente',
         desarrolloContenidos: true,
       },
     ],
@@ -116,17 +219,98 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Conflicto',
+      significado:
+        'Coexistencia de tendencias contradictorias en el individuo, capaces de generar angustia y trastornos neuróticos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Momento brillante',
+      significado:
+        'Es aquel en que se genera un acto comunicativo agradable, empático, donde el cliente se siente atendido, acogido. La percepción del cliente es muy favorable.',
+    },
+    {
+      termino: 'Momentos críticos',
+      significado:
+        'Es aquel en el que se presentan interferencias que obstaculizan y distorsionan el acto comunicativo, son situaciones negativas, donde el cliente se siente desatendido, ignorado, despreciado, rechazado. La percepción del cliente es muy desfavorable, afecta la imagen de la organización generando pérdidas.',
+    },
+    {
+      termino: 'Respuesta emocional conductual',
+      significado:
+        'Hace referencia a movimientos musculares que responden a una situación.',
+    },
+    {
+      termino: 'Respuesta emocional autónoma',
+      significado: 'Genera una movilización rápida de energía.',
+    },
+    {
+      termino: 'Respuesta emocional hormonal',
+      significado: 'La producción de hormonas aumenta el flujo sanguíneo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Barón, R y Byrne, B. (1998). Psicología social. (8a ed.). Madrid, España: Prentice Hall',
+      link: '',
+    },
+    {
+      referencia:
+        'Carlson, N. (1996). Fundamentos de psicología fisiológica. México: Prentice Hall',
+      link: '',
+    },
+    {
+      referencia:
+        'Carlzon, J. (1991). El momento de la verdad. Madrid, España: Ediciones Díaz de Santos. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Fundación Compromiso. (2006). Manejo de conflicto. Buenos Aires, Argentina: Autor.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gardner, H. (1998). Inteligencias múltiples: La teoría en práctica. Barcelona, España: Paidos Ibérica.',
+      link: '',
+    },
+    {
+      referencia:
+        'Guerra, C. (2008). La negociación y el manejo de conflictos en las organizaciones. Brasil: UVM-San Ángel.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Internacional de Planeamiento de la Educación. (2014). Negociación. Consultado el 16 de julio de 2015',
+      link: 'http://ww2.educarchile.cl/UserFiles/P0001/File/modulo06p.pdf',
+    },
+    {
+      referencia:
+        'Merani, A. (1979). Diccionario de psicología. Barcelona, España: Grijalbo. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Morris, C. (1997). Psicología. México D.C., México: Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pascal, A. (2003). Técnicas de negociación. México: Instituto Tecnológico y de Estudios Superiores de Monterrey Vicerrectoría Académica del Sistema Tecnológico.',
+      link: '',
+    },
+    {
+      referencia:
+        'Robbin, S. (1997). Comportamiento organizacional. (7a ed.). Madrid, España: Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad del CEMA. (2012). Negociación Organizacional. Consultado el 16 de julio de 2015, en http://www.ucema.edu.ar/programa-dco/negociacion',
+      link: '',
+    },
+    {
+      referencia:
+        'Viveros, J. (2003). Liderazgo, comunicación efectiva y resolución de conflictos. Santiago de Chile, Chile: Organización Internacional del Trabajo.',
       link: '',
     },
   ],
@@ -140,9 +324,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,9 +334,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'José Luis Aguilar Camacho',
+          cargo: 'Experto temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Marina Jaramillo Portillo',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Lucy Yaneth Rache Pérez',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Elsa Vargas Báez',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luz Clarena Arias González',
+          cargo: 'Guionista - Línea de Producción',
+          centro: 'Centro Agroindustrial - Regional Quindío',
         },
       ],
     },
@@ -165,9 +373,9 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>fullstack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Nombre',
