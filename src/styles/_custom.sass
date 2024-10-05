@@ -2,21 +2,64 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 52%
+    right: 69%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 1%
+    right: 55%
+    width: 35%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 33%
+    right: 3%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+.banner-principal .tarjeta:before    
+  content: ''
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0px
+  border-radius: 20px
+  z-index: -1
+  background: linear-gradient(90deg,#CA7441,#FFBD45)
+  background-size: 180% 180%
+  animation: bg-mov 6s ease infinite  
+@keyframes bg-mov
+  0% 
+    background-position: 0% 50%
+  50% 
+    background-position: 100% 50%
+  100% 
+    background-position: 0% 50%
+
+
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/mini-portada.png') !important
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem  
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario 
+.color-primario .lista-ol--cuadro__vineta 
+  background-color: $color-primario
+  span
+    color: $color-sistema-texto
+    font-weight: bold
 
 .bg1
   background-color: #FFBD45
@@ -32,56 +75,69 @@
   background-color:#CA7441 
   border-radius: 10px
 .bg6
-  background-color: #FFEBC7 
+  background-color: #FFEBC7 !important
 .bg7
   background-color:#EE4F47 
   border-radius: 20px
+.bg8
+  background-color: #FCF0E8
 .bgimg1
-    background-image: url('../assets/curso/temas/t2/bgimg1.svg') !important;
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: left 
-    width: fit-content
-    height: 50px
-    padding-left: 10px
-    padding-right: 20px
+  background-image: url('../assets/curso/temas/t2/bgimg1.svg') !important
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: left 
+  width: fit-content
+  height: 65px
+  padding-left: 10px
+  padding-right: 20px
 .bgimg2
-    background-image: url('../assets/curso/temas/t2/bgimg2.svg') !important;
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center 
-    height: 250px !important
+  background-image: url('../assets/curso/temas/t2/bgimg2.svg') !important
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center 
+  height: 250px !important
 .bgimg4
-    background-image: url('../assets/curso/temas/t4/globo.svg') !important;
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: left 
-    width: fit-content
-    height: 50px
-    padding-left: 10px
-    padding-right: 20px
+  background-image: url('../assets/curso/temas/t4/globo.svg') !important
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: left 
+  width: fit-content
+  height: 66px
+  padding-left: 10px
+  padding-right: 20px
 .bgimg5
-    background-image: url('../assets/curso/temas/t5/globo.svg') !important;
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: left 
-    width: fit-content
-    height: 50px
-    padding-left: 10px
-    padding-right: 20px
+  background-image: url('../assets/curso/temas/t5/globo.svg') !important
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: left 
+  width: fit-content
+  height: 66px
+  padding-left: 10px
+  padding-right: 20px
+  @media (max-width: $bp-max-md)
+    padding-right: 10px
+  @media (max-width: $bp-max-xs) 
+    background-image: none !important
+    padding-left: 0px
+    padding-right: 0px
+.text-dest
+  color: #4045AB
+.text-dest2
+  color: #EE4F47
+
 .tarjeta.slyder-f-cus-2
-      border-radius: 20px;
+  border-radius: 20px
 .tarjeta--orange
   background-color: #F6CCB3 !important
 .fullview-2
-  background-image: url('../assets/curso/temas/t4/fondo1.svg') !important;
+  background-image: url('../assets/curso/temas/t4/fondo1.svg') !important
   background-position: center
   background-size: cover
   background-repeat: no-repeat
   margin-inline: -3.4rem
 .crd--avatarHorizontal
   position: relative
-  margin-left: 4rem;
+  margin-left: 4rem
   & > *
     position: relative
   h5 
@@ -99,7 +155,84 @@
     border-top-left-radius: 30px
     border-bottom-left-radius: 30px
 .py-avatarHorizontal
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+  padding-top: 1rem !important
+  padding-bottom: 1rem !important
 .pl-cus
   padding-left: 65px
+
+.fle-circulo .slyder-f__btn i
+  font-size: 2rem
+  background-color: #4045AB
+  height: 60px
+  width: 60px
+  padding: 5px
+  border-radius: 500px
+  color: #FFF
+  display: flex
+  justify-content: center
+  align-items: center
+.tabs-c 
+  border-bottom: 1px solid #E8E8E8
+.tabs-c__header
+  margin-bottom: 0px
+.tabs-c__tab--active span
+  font-weight: bold
+.bloque-texto-g__texto 
+  background-color: rgba(255, 255, 255, 0.9)
+  border-radius: 30px
+.bloque-texto-g.color-secundario:before
+  content: ''
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0px
+  background-image: url('../assets/curso/temas/t3/masc.png')
+  z-index: 0
+.tabs-a__tab
+  background-color: #EE4F47
+.tabs-b 
+  border-bottom: 5px solid #F2F4F5
+.tabs-b__tab 
+  &.tabs-b__tab--active
+    .tabs-b__tab__icon
+      filter: hue-rotate(0deg)
+  .tabs-b__tab__icon
+    filter: hue-rotate(46deg)
+.acordion__accion__btn--a
+  background-color: #4045AB
+  color: #FFF
+.tarjeta--orange.acordion__activo
+  background-color: #FFEBC7 !important
+.bloque-texto-b.color-primario:before 
+  background-color: #F6CCB3
+
+
+.tarjeta.t1-4
+  background-color: #F6A6A2 
+  transition: all 0.3s ease-out
+  width: 100%
+  &:hover
+    background-color: #EE4F47
+    transition: all 0.3s ease-out
+    p
+      font-weight: bold
+      transition: all 0.3s ease-out
+
+.banner
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0px
+    background-image: url('../assets/curso/temas/t5/banner-cubierta.png')
+    z-index: 0
+    @media (max-width: $bp-max-md)
+      display: none
+  p 
+    z-index: 5 
+    position: relative 
+    

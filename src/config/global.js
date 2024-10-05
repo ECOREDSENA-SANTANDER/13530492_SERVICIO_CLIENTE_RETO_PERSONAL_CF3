@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Interacción con el cliente',
     descripcionCurso:
       'La inteligencia emocional, el manejo de las emociones y las habilidades blandas como la solución de conflictos, representan estrategias claras y eficaces para reducir la carga emocional de un colaborador de servicio al cliente. Adicionalmente, las habilidades de básicas de negociación que pueda tener esta persona benefician tanto a la empresa como al cliente logrando así un cliente satisfecho y que muy seguramente volverá y/o recomendará el servicio.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -15,7 +15,7 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
@@ -176,11 +176,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -362,30 +362,35 @@ export default {
           cargo: 'Guionista - Línea de Producción',
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
+        {
+          nombre: 'Carolina Jiménez Suescún',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrolladora <em>fullstack</em>',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de Contenidos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animador y Producción audiovisual',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: '',
           cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -393,24 +398,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: '',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
