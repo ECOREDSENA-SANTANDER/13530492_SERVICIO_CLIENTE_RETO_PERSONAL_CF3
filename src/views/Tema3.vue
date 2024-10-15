@@ -11,8 +11,7 @@
       .col-lg-5.col-md-7.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t3/img1.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p La negociación es una comunicación entre dos o más sujetos, cuyo fin es llegar a encuentros cordiales, es decir, buscar puntos comunes, que beneficie a las partes (empresa-clientes) y que permitan llegar a una satisfacción mutua. 
-          span.fw-bold.text-dest2 En esta actividad hay que aplicar muy bien la escucha activa y la comunicación asertiva, 
+        p La negociación es una comunicación entre dos o más sujetos, cuyo fin es llegar a encuentros cordiales, es decir, buscar puntos comunes, que beneficie a las partes (empresa-clientes) y que permitan llegar a una satisfacción mutua. En esta actividad hay que aplicar muy bien la escucha activa y la comunicación asertiva, 
           | por tanto, se trabaja en la construcción de ambientes de colaboración y cooperación, que faciliten llegar a realizar alianzas en beneficio y compromiso entre las partes. 
         .row.align-items-center
           .col-lg-10.col-md-10.col-9
@@ -36,7 +35,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t3/img4.png')})`}")
       .bloque-texto-g__texto.p-4.p-lg-5
-        p.mb-0 Si se quiere una negociación adecuada #[b se deben evitar actitudes como: la intimidación, puntos de vista intransigentes, actuaciones agresivas y propender por el diálogo, la escucha activa, la argumentación, el alcanzar un objetivo común.] Considerar los propios intereses y los de los otros facilita el proceso de negociación. 
+        p.mb-0 Si se quiere una negociación adecuada se deben evitar actitudes como: la intimidación, puntos de vista intransigentes, actuaciones agresivas y propender por el diálogo, la escucha activa, la argumentación, el alcanzar un objetivo común. Considerar los propios intereses y los de los otros facilita el proceso de negociación. 
     
 
     Separador
@@ -89,7 +88,7 @@
         img(src='@/assets/curso/temas/t3/img6.svg', alt='')
       .col-lg-9(data-aos='fade-left')
         p Un proceso de negociación, en cualquier contexto, requiere que los actores que intervengan cuenten con habilidades básicas que garanticen un proceso ágil, confiable, transparente, respetuoso y justo. 
-          span.text-dest2.fw-bold Entre estas están: entusiasmo, prudencia, respeto, paciencia, persuasión, agilidad para tomar decisiones, imparcialidad, confianza en sí mismo, recursividad, creatividad, inteligencia emocional. 
+          | Entre estas están: entusiasmo, prudencia, respeto, paciencia, persuasión, agilidad para tomar decisiones, imparcialidad, confianza en sí mismo, recursividad, creatividad, inteligencia emocional. 
     
 
     Separador

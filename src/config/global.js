@@ -383,13 +383,13 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrolladora <em>full stack</em> junior',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -403,12 +403,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: '',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

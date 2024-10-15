@@ -18,7 +18,7 @@
       .col-lg-1.col-md-2.col-3
         img(src='@/assets/curso/temas/t2/img2.svg', alt='')
       .col-lg-11.col-md-10.col-9
-        p.mb-0 Para brindar un buen servicio al cliente es indispensable estar atento del más mínimo detalle que esté presente en el momento de la transacción comercial, es decir, no se deben dejar al azar, así se podrán superar las expectativas de los clientes. El efectuar un análisis y reflexión sobre los momentos de verdad que la organización pueda identificar se convierte en una excelente herramienta para formular acciones encaminadas a mejorar el servicio. 
+        p.mb-0 Para brindar un buen servicio al cliente, es indispensable estar atento del más mínimo detalle que esté presente en el momento de la transacción comercial, es decir, no se deben dejar al azar, así se podrán superar las expectativas de los clientes. El efectuar un análisis y reflexión sobre los momentos de verdad que la organización pueda identificar se convierte en una excelente herramienta para formular acciones encaminadas a mejorar el servicio. 
     
     .bgimg1.mb-3
       h3.pt-2 Clasificación de momentos de verdad 

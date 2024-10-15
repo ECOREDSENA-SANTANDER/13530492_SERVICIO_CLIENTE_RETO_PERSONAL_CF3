@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/t5/banner.png', alt='')
         .col-lg-6
           p Realizar constantemente la comprobación del nivel de satisfacción de los clientes, se convierte en un elemento fundamental para diseñar acciones de mejoramiento en los procesos y actividades que lleva a cabo la empresa para alcanzar la plena satisfacción de las necesidades y expectativas de los clientes.
-          p.fw-bold Si se desea implementar acciones de mejora, encaminadas a alcanzar la satisfacción del cliente, se hace indispensable conocer los procesos comerciales y operativos que se dan dentro de la empresa. 
+          p Si se desea implementar acciones de mejora, encaminadas a alcanzar la satisfacción del cliente, se hace indispensable conocer los procesos comerciales y operativos que se dan dentro de la empresa. 
           p El examinar detenidamente estos procesos (comerciales y operativos) tiene como finalidad la planeación de recursos, el aumento de la productividad, de la calidad o del mejoramiento de la competitividad en el mercado. 
 
 

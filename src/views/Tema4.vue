@@ -196,10 +196,10 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8   
-        .bloque-texto-b.color-primario.p-4
+        .bloque-texto-b.color-primario.tarjeta--orange.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h4.mb-0 Los conflictos siempre existen y existirán, por lo cual nuestra obligación como dirigentes es aprender a vivir con ellos tratando que no se manifiesten y administrándolos eficientemente cuando ocurren.
+            p.f-18.mb-0 Los conflictos siempre existen y existirán, por lo cual nuestra obligación como dirigentes es aprender a vivir con ellos tratando que no se manifiesten y administrándolos eficientemente cuando ocurren.
             i.fas.fa-quote-right
     
     p.mb-4 Las actitudes que pueden prevenir un conflicto y contribuir con el desarrollo organizacional son: 
