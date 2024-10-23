@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En el diagrama se presentan los temas principales del componente: inteligencia emocional, momentos de verdad, negociación, conflicto, satisfacción. Adicionalmente se relacionan los conceptos más importantes de cada uno de los temas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

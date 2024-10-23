@@ -280,8 +280,9 @@ export default {
     },
     {
       referencia:
-        'Instituto Internacional de Planeamiento de la Educación. (2014). Negociación. Consultado el 16 de julio de 2015',
-      link: 'http://ww2.educarchile.cl/UserFiles/P0001/File/modulo06p.pdf',
+        'Negociación efectiva con clientes: Cómo hacerlo correctamente. (2023, septiembre 3). Supered.',
+      link:
+        'https://supered.es/negociacion-efectiva-con-clientes-como-hacerlo-correctamente/?user_comments=1',
     },
     {
       referencia:
