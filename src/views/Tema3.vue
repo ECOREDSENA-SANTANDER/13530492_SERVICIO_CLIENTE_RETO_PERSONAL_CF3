@@ -21,12 +21,67 @@
     
     p.mb-4 La habilidad para llevar a cabo una negociación puede mejorar mucho si se desarrolla un acercamiento gradual mediante concesiones que beneficien a ambas partes. 
     
-    .bg8.p-4.py-lg-5(data-aos="fade-down")
-      .row.justify-content-center
-        .col-lg-8
-          img(src='@/assets/curso/temas/t3/img3.svg', alt='')
-    
+    h4.mb-4 Negociación cara a cara exitosa
 
+    .row.justify-content-center.align-items-center(data-aos="fade-down")
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img.img-a.img-t(src='@/assets/curso/temas/t3/1.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Tener argumentos sólidos.]
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/2.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Exponer lo importante al principio y al final.]
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/3.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Determinar beneficios y consecuencias.]
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/4.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Estar cómodo y en silencio.]
+
+    .row.justify-content-center.align-items-center(data-aos="fade-down")
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/5.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b No demostrar prioridades.]
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/6.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Dejar las conclusiones al final.]
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/7.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Comenzar con ofertas altas.]
+      .col-lg-3.col-md-6.mb-4
+        .bgf.p-3
+          .row.justify-content-center.align-items-center(data-aos="fade-down")
+            .col-lg-3.col-md-3.col-2.ps-2.pe-2
+              img(src='@/assets/curso/temas/t3/8.png', alt='')
+            .col-lg-9.col-md-9.col-10
+              p.mb-0 #[b Prudencia con las ideas.]
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.1 Actitudes para la negociación 

@@ -34,7 +34,10 @@
         p Cada sujeto reacciona de forma diferente ante cada emoción, ya que las emociones están conectadas con el cerebro, pues son impulsos que los llevan a actuar. 
         p Una respuesta emocional, de acuerdo con Carlson (1996), la conforman tres componentes: conductual, autónomo y hormonal.
       .col-lg-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/t1/img3.svg', alt='')
+        .titulo-sexto.color-secundario.mb-4
+          h5 Figura 1. 
+          | Cerebro emocional
+        img(src='@/assets/curso/temas/t1/img3.svg', alt='La figura presenta tres círculos formando un triangulo, el cual menciona en sus tres puntas: sentir, pensar y actuar; los círculos a su vez mencionan desarrollo emocional, desarrollo cognitivo y desarrollo conductual respectivamente. En el punto donde se juntan los tres círculos se lee Inteligencia emocional.')
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.mb-4.mb-lg-0

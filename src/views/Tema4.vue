@@ -127,7 +127,7 @@
     
     .row
       .col-lg-7(data-aos='fade-right')
-        p Una organización es una confluencia de pensamientos, habilidades, sentimientos, individualidades, creencias y vivencias, que impregnan las interrelaciones entre todos los participantes de una organización, por lo tanto es un escenario social donde existen fuentes inagotables de conflicto como: 
+        p Una organización es una confluencia de pensamientos, habilidades, sentimientos, individualidades, creencias y vivencias, que impregnan las interrelaciones entre todos los participantes de una organización, por lo tanto, es un escenario social donde existen fuentes inagotables de conflicto como: 
         ol.lista-ol--cuadro.lista-ol--separador.color-primario.fa-ul
           li 
             .lista-ol--cuadro__vineta

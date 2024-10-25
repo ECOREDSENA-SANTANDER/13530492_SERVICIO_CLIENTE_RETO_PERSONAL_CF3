@@ -189,7 +189,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/13530492_CF3_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -321,7 +321,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -336,7 +336,7 @@ export default {
       autores: [
         {
           nombre: 'José Luis Aguilar Camacho',
-          cargo: 'Experto temática',
+          cargo: 'Experto temático',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -360,7 +360,7 @@ export default {
         },
         {
           nombre: 'Luz Clarena Arias González',
-          cargo: 'Guionista - Línea de Producción',
+          cargo: 'Guionista - línea de producción',
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
@@ -375,7 +375,7 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñadora de Contenidos Digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -404,7 +404,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Diana Lizeth Lozada Diaz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
