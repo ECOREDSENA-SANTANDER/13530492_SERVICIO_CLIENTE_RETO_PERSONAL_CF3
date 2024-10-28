@@ -157,7 +157,7 @@
         .row.justify-content-evenly
           .col-md-7
             h4 Preparación
-            p Una buena preparación define el sendero de una excelente negociación. #[b Es necesario diseñar la estrategia, planear toda la logística requerida] (equipos, lugar, accesos a internet, refrigerios, documentación, entre otras).     
+            p Una buena preparación define el sendero de una excelente negociación. Es necesario diseñar la estrategia, planear toda la logística requerida (equipos, lugar, accesos a internet, refrigerios, documentación, entre otras).     
           .col-lg-4.col-md-5
             img(src='@/assets/curso/temas/t3/img7.png', alt='')  
       .py-4.py-md-5(titulo="Apertura" :icono="require('@/assets/curso/temas/t3/tabsb2.svg')")

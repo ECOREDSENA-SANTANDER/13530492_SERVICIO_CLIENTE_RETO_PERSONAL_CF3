@@ -30,14 +30,14 @@
             img(src='@/assets/curso/temas/t2/img3.png', alt='')
           .col-md-6.col-lg-5
             h5 Momento brillante
-            p Es aquel en que se genera un acto comunicativo agradable, empático, donde el #[b cliente se siente atendido, acogido.] La percepción del cliente es muy favorable. 
+            p Es aquel en que se genera un acto comunicativo agradable, empático, donde el cliente se siente atendido, acogido. La percepción del cliente es muy favorable. 
       .p-4.py-md-5.bg3(titulo="Momentos críticos")
         .row.justify-content-center.align-items-center
           .col-md-5.col-lg-5.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t2/img4.png', alt='')
           .col-md-6.col-lg-5
             h5 Momentos críticos
-            p Es aquel en el que se presentan interferencias que obstaculizan y distorsionan el acto comunicativo, son situaciones negativas, donde el #[b cliente se siente desatendido, ignorado, despreciado, rechazado.] La percepción del cliente es muy desfavorable, afecta la imagen de la organización generando pérdidas. 
+            p Es aquel en el que se presentan interferencias que obstaculizan y distorsionan el acto comunicativo, son situaciones negativas, donde el cliente se siente desatendido, ignorado, despreciado, rechazado. La percepción del cliente es muy desfavorable, afecta la imagen de la organización generando pérdidas. 
     
     p Los momentos de verdad pueden ser positivos si promueven el proceso de satisfacción del cliente, es decir, responde a sus expectativas; y los momentos de verdad pueden ser negativos si generan sentimientos de rechazo, frustración, malestar e inconformidad con la atención recibida.
 
