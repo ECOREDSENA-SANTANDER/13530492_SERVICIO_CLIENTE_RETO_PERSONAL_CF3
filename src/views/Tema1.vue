@@ -13,7 +13,7 @@
         .cajon.color-primario.bg6.p-4.mb-4
           p.mb-2 Merani (1979), define la emoción como “estado complejo del organismo que incluye cambios fisiológicos… respiración, pulso, secreción glandular y del lado mental, un estado de excitación o perturbación…que se expresa en una forma definida de conducta”.
           p.mb-0 Por tanto, se puede precisar la inteligencia emocional, como la capacidad de un sujeto para dominar, comprender, asumir y aprender a controlar sus emociones para reaccionar de forma asertiva. 
-        p La inteligencia emocional no es no sentir o negar los sentimientos, por el contrario, es reconocer las emociones, dándole su nombre (furia, resentimiento, tristeza, miedo, preocupación, soledad, ansiedad, alegría, amor, sorpresa, desprecio, disgusto, vergüenza), analizar los hechos que la generan y las reacciones que producen, para asumir una actitud proactiva frente a ellas. Es tomar las riendas de ese potro desbocado que son las emociones, para que éste no genere estragos interpersonales (relación con otros), ni intrapersonales (relación consigo mismo).
+        p La inteligencia emocional no es no sentir o negar los sentimientos, por el contrario, es reconocer las emociones, dándole su nombre (furia, resentimiento, tristeza, miedo, preocupación, soledad, ansiedad, alegría, amor, sorpresa, desprecio, disgusto, vergüenza), analizar los hechos que la generan y las reacciones que producen, para asumir una actitud proactiva frente a ellas. Es tomar las riendas de ese potro desbocado que son las emociones, para que este no genere estragos interpersonales (relación con otros), ni intrapersonales (relación consigo mismo).
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img1.png', alt='')
 
@@ -37,7 +37,8 @@
         .titulo-sexto.color-secundario.mb-4
           h5 Figura 1. 
           | Cerebro emocional
-        img(src='@/assets/curso/temas/t1/img3.svg', alt='La figura presenta tres círculos formando un triangulo, el cual menciona en sus tres puntas: sentir, pensar y actuar; los círculos a su vez mencionan desarrollo emocional, desarrollo cognitivo y desarrollo conductual respectivamente. En el punto donde se juntan los tres círculos se lee Inteligencia emocional.')
+        img.mb-2(src='@/assets/curso/temas/t1/img3.svg', alt='La figura presenta tres círculos formando un triangulo, el cual menciona en sus tres puntas: sentir, pensar y actuar; los círculos a su vez mencionan desarrollo emocional, desarrollo cognitivo y desarrollo conductual respectivamente. En el punto donde se juntan los tres círculos se lee Inteligencia emocional.')
+        figcaption Fuente. SENA
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.mb-4.mb-lg-0
@@ -59,7 +60,7 @@
             h4 Hormonal
             p La producción de hormonas aumenta el flujo sanguíneo.  
     
-    p Lo anterior se produce gracias a la activación de diferentes partes del cerebro. El entrelazar los componentes es responsabilidad de la amígdala localizada en el interior de los lóbulos temporales del cerebro. A manera de ejemplo, la amígdala posibilita en caso de una crisis enviar señales de urgencia al cerebro, produciendo secreciones hormonales que preparan para la lucha o la huida, estados de alerta, estimula el sistema cardiovascular, muscular, respiratorio, entre otros. 
+    p Lo anterior se produce gracias a la activación de diferentes partes del cerebro. El entrelazar los componentes es responsabilidad de la amígdala localizada en el interior de los lóbulos temporales del cerebro. A manera de ejemplo, la amígdala posibilita, en caso de una crisis, enviar señales de urgencia al cerebro, produciendo secreciones hormonales que preparan para la lucha o la huida, estados de alerta, estimula el sistema cardiovascular, muscular, respiratorio, entre otros. 
     p Las respuestas emocionales están mediadas también por las vivencias, es probable que se aprenda a modificar (respuesta emocional condicionada) si se ha tenido una experiencia que le haya permitido proteger la integridad y generar seguridad. 
     p Las emociones están permeando cada una de las decisiones de las personas. En el ballet del sentir y la razón, las emociones van con las manifestaciones del cuerpo: lenguaje verbal, no verbal y funcionamiento fisiológico.
     
@@ -136,7 +137,7 @@
             .text-black.text-center.p-4
               p Argumentar sin ofender.
     
-    p En la actualidad el mundo empresarial requiere de un horizonte emocional, una sincronía y una sintonía entre todos y cada uno de los colaboradores sin importar jerarquías, que generen un clima laboral agradable. Esto ahorrará tiempo, dinero, esfuerzo y evitará malestar organizacional, trayendo para la organización ganancias y competitividad dentro del mercado global.
+    p En la actualidad, el mundo empresarial requiere de un horizonte emocional, una sincronía y una sintonía entre todos y cada uno de los colaboradores, sin importar jerarquías, que generen un clima laboral agradable. Esto ahorrará tiempo, dinero, esfuerzo y evitará malestar organizacional, trayendo para la organización ganancias y competitividad dentro del mercado global. 
     
 
     Separador
@@ -148,7 +149,7 @@
         .cajon.color-primario.bg6.p-4.mb-4
           p.mb-0 La primera entidad de aprendizaje emocional es el hogar. Es el espejo en el que se aprende a interactuar consigo mismo, con los demás y con la naturaleza, a emitir respuestas ante algunas situaciones, a ponerle palabra a los sentimientos, a expresar miedos, deseos, anhelos. 
             | Pero esto no implica que este aprendizaje no pueda sufrir modificaciones, este no solo se da a través de los padres, sino también de la familia, amigos, maestros, hijos e incluso personas ajenas a la dinámica familiar, es decir, cada instante de la vida aporta a la formación emocional. 
-        p La reeducación emocional se genera cuando se hacen conscientes las fortalezas y debilidades y la acción de mejoramiento que se efectué, ya sea para afianzar o modificar respuestas emocionales, con el fin de alcanzar una interacción asertiva. 
+        p La reeducación emocional se genera cuando se hacen conscientes las fortalezas y debilidades y la acción de mejoramiento que se efectúe, ya sea para afianzar o modificar respuestas emocionales, con el fin de alcanzar una interacción asertiva.
         p El equilibrio de crecimiento emocional está ligado a procesos de desarrollo de pensamiento y a la madurez cerebral, que se reflejarán en la autoconciencia emocional, en el control emocional, el aprovechamiento productivo de las emociones, la empatía, la capacidad de solucionar problemas y de resolver conflictos.
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.png', alt='')

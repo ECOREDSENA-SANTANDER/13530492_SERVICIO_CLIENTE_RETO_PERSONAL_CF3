@@ -161,7 +161,7 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.4 Variables del conflicto
 
-    p.mb-4 Para intervenir un conflicto o medir el grado de afectación que éste genera dentro de un contexto se deben analizar las siguientes variables: 
+    p.mb-4 Para intervenir un conflicto o medir el grado de afectación que este genera dentro de un contexto, se deben analizar las siguientes variables: 
 
     .row.justify-content-center(data-aos='fade-down')
       .col-lg-3.d-none.d-lg-block

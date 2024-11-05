@@ -11,7 +11,7 @@
       .col-lg-5.col-md-7.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t3/img1.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p La negociación es una comunicación entre dos o más sujetos, cuyo fin es llegar a encuentros cordiales, es decir, buscar puntos comunes, que beneficie a las partes (empresa-clientes) y que permitan llegar a una satisfacción mutua. En esta actividad hay que aplicar muy bien la escucha activa y la comunicación asertiva, 
+        p La negociación, es una comunicación entre dos o más sujetos, cuyo fin es llegar a encuentros cordiales, es decir, buscar puntos comunes, que beneficie a las partes (empresa-clientes) y que permitan llegar a una satisfacción mutua. En esta actividad hay que aplicar muy bien la escucha activa y la comunicación asertiva, 
           | por tanto, se trabaja en la construcción de ambientes de colaboración y cooperación, que faciliten llegar a realizar alianzas en beneficio y compromiso entre las partes. 
         .row.align-items-center
           .col-lg-10.col-md-10.col-9
@@ -171,7 +171,7 @@
         .row.justify-content-evenly
           .col-md-7
             h4 Desarrollo
-            p Durante esta etapa se efectúan la presentación de las propuestas de cada una de las partes, se establecen algunas concesiones y los participantes aplican estrategia de negociación.      
+            p Durante esta etapa se efectúa la presentación de las propuestas de cada una de las partes, se establecen algunas concesiones y los participantes aplican estrategia de negociación.      
           .col-lg-4.col-md-5
             img(src='@/assets/curso/temas/t3/img9.png', alt='')
       .py-4.py-md-5(titulo="Cierre" :icono="require('@/assets/curso/temas/t3/tabsb4.svg')")

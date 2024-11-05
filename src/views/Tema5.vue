@@ -117,7 +117,7 @@
             h4.text-center Mejora continua
             p.text-center Gestiones que se efectúan a diario como parte de la búsqueda de la excelencia constante.
     
-    p.mb-4 Gracias a estas estrategias las empresas pueden alcanzar un posicionamiento en el mercado, incursionar en nuevos negocios e inclusive innovar en el servicio o producto: 
+    p.mb-4 Gracias a estas estrategias, las empresas pueden alcanzar un posicionamiento en el mercado, incursionar en nuevos negocios e inclusive innovar en el servicio o producto: 
     
     .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-lg-6

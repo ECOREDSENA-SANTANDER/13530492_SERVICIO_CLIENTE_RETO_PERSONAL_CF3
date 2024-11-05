@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4 En el siguiente video se presenta la introducción al componente, en el cual se abordan conceptos de inteligencia emocional, negociación con el cliente.
+    p.mb-4 En el siguiente video se presenta la introducción al componente, en el cual se abordan conceptos de inteligencia emocional y negociación con el cliente.
 
     figure
       .video

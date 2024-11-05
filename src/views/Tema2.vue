@@ -10,7 +10,7 @@
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-7(data-aos="fade-right")
         p Los momentos de verdad hacen referencia a un instante suficiente para que los clientes recreen cada uno de los escenarios, que le permiten construir una imagen de la empresa; la concepción de estos dependerá, fundamentalmente, de esa primera vivencia que experimente el cliente con uno de los colaboradores. 
-        p Esta representación determinará el tipo de comunicación verbal y no verbal que asuma el cliente, ante la capacidad de resolución que tenga el funcionario para dar respuesta a cualquier situación que se le presente al cliente. Es decir, que los momentos de verdad van tejiendo el entramado del ciclo de servicio que deja una huella en el cliente. Entonces, el momento de la verdad no depende solamente de la interacción con el otro, en él están involucrados infraestructura, señalamientos, oficinas, indumentarias, espacios acogedores, entre otros. Es decir el entorno organizacional. 
+        p Esta representación determinará el tipo de comunicación verbal y no verbal que asuma el cliente, ante la capacidad de resolución que tenga el funcionario para dar respuesta a cualquier situación que se le presente al cliente. Es decir, que los momentos de verdad van tejiendo el entramado del ciclo de servicio que deja una huella en el cliente. Entonces, el momento de la verdad no depende solamente de la interacción con el otro, en él están involucrados infraestructura, señalamientos, oficinas, indumentarias, espacios acogedores, entre otros. Es decir, el entorno organizacional. 
       .col-lg-5.col-md-7(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/img1.png', alt='')
     
@@ -46,7 +46,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Una correcta actitud 
     
-    p.mb-4 En el ámbito empresarial una correcta actitud es la garante de un momento de verdad positivo, que deja una huella imborrable en la memoria del cliente. Para desarrollar esta cualidad se debe:  
+    p.mb-4 En el ámbito empresarial, una correcta actitud es la garante de un momento de verdad positivo, que deja una huella imborrable en la memoria del cliente. Para desarrollar esta cualidad se debe:  
     
     SlyderF.fle-circulo.mb-5(columnas="col-md-4 col-lg-3" data-aos="fade-down")
       .tarjeta.slyder-f-cus-2.bgimg2.p-4
