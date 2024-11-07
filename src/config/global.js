@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Interacción con el cliente',
     descripcionCurso:
-      'La inteligencia emocional, el manejo de las emociones y las habilidades blandas como la solución de conflictos, representan estrategias claras y eficaces para reducir la carga emocional de un colaborador de servicio al cliente. Adicionalmente, las habilidades de básicas de negociación que pueda tener esta persona benefician tanto a la empresa como al cliente logrando, así un cliente satisfecho y que muy seguramente volverá y/o recomendará el servicio.',
+      'La inteligencia emocional, el manejo de las emociones y las habilidades blandas como la solución de conflictos, representan estrategias claras y eficaces para reducir la carga emocional de un colaborador de servicio al cliente. Adicionalmente, las habilidades de básicas de negociación que pueda tener esta persona benefician tanto a la empresa como al cliente, logrando así un cliente satisfecho y que muy seguramente volverá y/o recomendará el servicio.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
